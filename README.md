@@ -1,3 +1,3 @@
 # JoystickMouse
 James Pham 100741773
-\nFrederic Lai - 100748388
+Frederic Lai - 100748388
