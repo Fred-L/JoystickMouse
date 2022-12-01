@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class Leonardo : MonoBehaviour
+public class Controller : MonoBehaviour
 {
     public SerialController serialController;
+
+    public string message;
 
     // Start is called before the first frame update
     void Start()
@@ -41,10 +44,11 @@ public class Leonardo : MonoBehaviour
         // Receive data
         //---------------------------------------------------------------------
 
-        string message = serialController.ReadSerialMessage();
+        message = serialController.ReadSerialMessage();
 
         if (message == null)
             return;
+        //Debug.Log(message);
 
         // Check if the message is plain data or a connect/disconnect event.
         if (ReferenceEquals(message, SerialController.SERIAL_DEVICE_CONNECTED))
@@ -53,5 +57,7 @@ public class Leonardo : MonoBehaviour
             Debug.Log("Connection attempt failed or disconnection detected");
         else
             Debug.Log("Message arrived: " + message);
+        //if (message == "Mouse 1")
+        //    Debug.Log("OK");
     }
 }
