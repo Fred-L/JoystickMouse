@@ -4,6 +4,11 @@ https://www.tinkercad.com/things/b7ysF4innIO
 Youtube Prototype Live Demonstration with a member of the audience tries it and Interactive Scene
 https://youtu.be/S9fz-u5d_U4
 
+Youtube Oral Presentation
+
+Technical Drawing Exploded View Animation
+https://youtu.be/ZNSEC8I37FU
+
 Interactive Scene is in Unity Team C9 under Assets/Ardity/Scenes 
 "DemoScene_UserPoll_ReadWrite" 
 https://github.com/Fred-L/JoystickMouse/tree/main/Unity%20Team%20C9/Assets/Ardity/Scenes
