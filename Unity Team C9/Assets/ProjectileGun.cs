@@ -64,7 +64,7 @@ public class ProjectileGun : MonoBehaviour
     {
         if (allowButtonHold)
         {
-            if (message == "Mouse 1")
+            if (message == "Mouse 1" || Input.GetKey(KeyCode.Mouse0))
                 shooting = true;
             else
                 shooting = false;
@@ -74,7 +74,7 @@ public class ProjectileGun : MonoBehaviour
 
         else
         {
-            if (message == "Mouse 1")
+            if (message == "Mouse 1" || Input.GetKey(KeyCode.Mouse0))
                 shooting = true;
             else
                 shooting = false;
